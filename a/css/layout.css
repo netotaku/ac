@@ -80,6 +80,22 @@ table th{
 	padding-top: 5px;
 }
 
+.grid li{
+	float: left;
+}
+
+.grid li a{
+	display: block;
+	padding-right: 20px;	
+}
+
+.grid li img{
+	width: 100%;	
+}
+
+.grid.thirds li{
+	width: 33.3%;
+}
 
 /* #Page Styles
 ================================================== */
@@ -156,7 +172,11 @@ table th{
 	@media only screen and (min-width: 480px) and (max-width: 767px) {}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-	@media only screen and (max-width: 479px) {}
+	@media only screen and (max-width: 479px) {
+		h1{
+			font-size: 34px;
+		}
+	}
 
 
 /* #Font-Face
