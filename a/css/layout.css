@@ -82,10 +82,12 @@ table th{
 
 .grid li{
 	float: left;
+	
 }
 
 .grid li a{
 	display: block;
+	position: relative;
 	padding-right: 20px;	
 }
 
@@ -93,8 +95,20 @@ table th{
 	width: 100%;	
 }
 
+.grid span{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box; 
+	width: 100%; 
+}
+
 .grid.thirds li{
-	width: 33.3%;
+	width: 25%;
 }
 
 /* #Page Styles
