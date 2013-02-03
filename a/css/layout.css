@@ -76,6 +76,10 @@ table th{
 	display: inline;
 }
 
+.breadcrumbs{
+	padding-top: 5px;
+}
+
 
 /* #Page Styles
 ================================================== */
